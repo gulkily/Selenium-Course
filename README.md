@@ -1,5 +1,6 @@
 Selenium-Course
 ===============
+This is an outline of my Selenium workshop.
 
 Software
 ========
@@ -13,3 +14,6 @@ Software
 
 Getting Started
 ===============
+# Installing the required tools
+# Setting up the Maven project
+# Running the first test
