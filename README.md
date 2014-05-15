@@ -14,6 +14,6 @@ Software
 
 Getting Started
 ===============
-# Installing the required tools
-# Setting up the Maven project
-# Running the first test
+1. Installing the required tools
+2. Setting up the Maven project
+3. Running the first test
