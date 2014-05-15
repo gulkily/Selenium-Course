@@ -19,7 +19,7 @@ Getting Started
 3. Running the first test
 4. Writing a new test
 5. Finding an element
-    a. By element tag
-    b. By id
-    c. By class
-    d. By xpath
+    1. By element tag
+    2. By id
+    3. By class
+    4. By xpath
