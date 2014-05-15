@@ -27,4 +27,8 @@ Getting Started
     1. Clicking
     2. Hovering
     3. Entering text
-7. Detecting changing state
+7. Detecting changing page state
+    1. Element appearance
+    2. Element disappearance
+    3. Page URL
+    4. Element text
