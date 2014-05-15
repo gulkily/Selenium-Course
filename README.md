@@ -23,3 +23,8 @@ Getting Started
     2. By id
     3. By class
     4. By xpath
+6. Interacting with an element
+    1. Clicking
+    2. Hovering
+    3. Entering text
+7. Detecting changing state
