@@ -20,6 +20,15 @@ Getting Started
 2. Setting up the Maven project
 3. Running the sample test
 
+Planning a Test
+===============
+1. What can automation accomplish?
+    1. Sanity checks
+    2. Regression testing of previously fixed issues
+2. Breaking down the test into steps
+    1. Follow the manual test plan
+    2. Break it down into actions
+
 Writing a New Test
 ==================
 1. Creating a new test class
