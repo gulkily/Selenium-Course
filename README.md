@@ -4,6 +4,8 @@ This is an outline of my Selenium workshop.
 
 Software
 ========
+* VirtualBox
+* Debian GNU/Linux
 * IntelliJ IDEA
 * Maven
 * Java
@@ -17,7 +19,6 @@ Getting Started
 1. Installing the required tools
 2. Setting up the Maven project
 3. Running the sample test
-
 
 Writing a New Test
 ==================
