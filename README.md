@@ -4,22 +4,33 @@ This is an outline of my Selenium workshop.
 
 Prerequisites
 =============
-In order to save time and standardize the working environment, a virtual machine image will be provided for everyone's use that includes all of the software already preinstalled. What is required from you is a computer with the following:
+In order to save time and standardize the working environment, a virtual machine image will be provided for everyone's use that includes all of the software already preinstalled.
+
+What is required from you is a computer with the following:
 
 * Mac OS X, Windows, or Linux
 * 4GB of RAM
 * 16GB of storage
 * VirtualBox already installed
+* USB port
+
+You also need to create a free account on each of the following services:
+
+* [GitHub](http://www.github.com/)
+* [SauceLabs](http://www.saucelabs.com/)
+* [StackOverflow](http://www.stackoverflow.com/)
+* [Reddit](http://www.reddit.com/)
 
 In the latter stages of the course, you will also need to install the following software on your host machine. Instructions will be provided as needed:
 
 * Java JDK 7 or later
-* RemoteWebDriver standalone executable (just download the .jar file)
+* RemoteWebDriver server standalone executable (just download the .jar file)
 
 Software Used
 =============
 * Debian GNU/Linux
 * IntelliJ IDEA
+* Git
 * Maven
 * Java
 * Firefox
@@ -40,13 +51,13 @@ Running Tests and Analyzing the Results
 =======================================
 1. Manually run the entire test suite
 2. Viewing screenshots
-3. Automating the running of tests on a scheduled basis
 
 Planning a New Test
 ===================
 1. What can automation accomplish?
     1. Sanity checks
     2. Regression testing of previously fixed issues
+    3. Detecting problems without exact specifications
 2. Breaking down the test into steps
     1. Follow the manual test plan
     2. Break it down into actions
@@ -70,6 +81,12 @@ Writing a New Test
     2. Element disappearance
     3. Page URL
     4. Element text
+5. Testing for common problems
+    1. Are there any broken images or links?
+    2. Are there any JavaScript errors?
+    3. Are any elements off-screen?
+    4. Does the page include common problem words like "error"?
+    5. Does the page have all of the expected content?
 
 Using RemoteWebDriver
 =====================
@@ -98,3 +115,7 @@ Page State Fingerprinting
     1. Detecting cross-browser issues
     2. Detecting unexpected page changes
     3. Detecting layout problems
+
+Copyright
+=========
+(c) 2014 Ilya Gulko
