@@ -54,7 +54,7 @@ Running Tests and Analyzing the Results
 
 Planning a New Test
 ===================
-1. What can automation accomplish?
+1. What's the point of automation?
     1. Sanity checks
     2. Regression testing of previously fixed issues
     3. Detecting problems without exact specifications
