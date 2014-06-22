@@ -116,4 +116,4 @@ Page State Fingerprinting
     2. Detecting unexpected page changes
     3. Detecting layout problems
 
-(c) 2014 Ilya Gulko
+&copy; 2014 Ilya Gulko
