@@ -48,11 +48,6 @@ Getting Started
 5. Was the test successful?
 6. What caused the test to fail?
 
-Running Tests and Analyzing the Results
-=======================================
-1. Manually run the entire test suite
-2. Viewing screenshots
-
 Planning a New Test
 ===================
 1. What's the point of automation?
@@ -88,6 +83,15 @@ Writing a New Test
     3. Are any elements off-screen?
     4. Does the page include common problem words like "error"?
     5. Does the page have all of the expected content?
+
+Running Tests and Analyzing the Results
+=======================================
+1. Manually run the entire test suite from the command line
+2. Adding a build target in IntelliJ
+3. Viewing screenshots
+4. Create and run a build in Jenkins
+5. Scheduling a regular test run
+6. Reporting and interpreting test results
 
 Using RemoteWebDriver
 =====================
