@@ -32,6 +32,7 @@ Software Used
 * IntelliJ IDEA
 * Git
 * Maven
+* Jenkins
 * Java
 * Firefox
 * Firebug
