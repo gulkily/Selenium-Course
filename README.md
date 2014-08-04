@@ -50,6 +50,8 @@ Getting Started
 
 Planning a New Test
 ===================
+Designing a new automation test based on our coverage requirements.
+
 1. What's the point of automation?
     1. Sanity checks
     2. Regression testing of previously fixed issues
@@ -60,6 +62,8 @@ Planning a New Test
 
 Writing a New Test
 ==================
+Writing the test based on the design we have defined previously.
+
 1. Creating a new test class
 2. Finding an element
     1. By element tag
@@ -67,17 +71,19 @@ Writing a New Test
     3. By class
     4. By xpath
     5. By nested structure
-3. Interacting with an element
+3. Building an XPath with Firebug and FirePath
+4. Interacting with an element
     1. Clicking
     2. Hovering
     3. Entering text
     4. Scrolling
-4. Detecting changing page state
+    5. Advanced interactions
+5. Detecting changing page state
     1. Element appearance
     2. Element disappearance
     3. Page URL
     4. Element text
-5. Testing for common problems
+6. Testing for common problems
     1. Are there any broken images or links?
     2. Are there any JavaScript errors?
     3. Are any elements off-screen?
@@ -86,15 +92,25 @@ Writing a New Test
 
 Running Tests and Analyzing the Results
 =======================================
+Running the tests we have been working on and learn how to interpret and reporting on the results.
+
 1. Manually run the entire test suite from the command line
 2. Adding a build target in IntelliJ
 3. Viewing screenshots
-4. Create and run a build in Jenkins
-5. Scheduling a regular test run
-6. Reporting and interpreting test results
+4. Scheduling a regular test run
+5. Reporting and interpreting test results
+
+Scheduling and Continuous Integration
+=====================================
+Creating a simple build configuration in Jenkins and learn how to integrate our tests into it.
+
+1. Scheduling daily or hourly test runs
+2. Running tests based on build events
 
 Using RemoteWebDriver
 =====================
+Using RemoteWebDriver to expand our test farm from the local browsers to ones accessible over the network.
+
 1. What is RemoteWebDriver?
 2. Connecting to the host computer
 3. Creating a SauceLabs account
@@ -102,8 +118,24 @@ Using RemoteWebDriver
 5. Running a test
 6. Practice running tests on each others' machines
 
+Setting Up the Development Environment
+======================================
+Recreating the portable development environment we have been working with by building a new Debian GNU/Linux virtual machine.
+
+1. Creating a Debian GNU/Linux virtual machine in VirtualBox
+2. Installing Java
+3. Installing IntelliJ
+4. Maven
+5. Firefox, Firebug, and FirePath
+
+Using Other Languages and Frameworks
+====================================
+Using other languages, we will recreate the functionality of an existing test with Ruby, Python.
+
 Page State Fingerprinting
 =========================
+Using a framework for "fingerprinting" a page's state by recording the attributes of each of its elements.
+
 1. How does it work?
     1. Each element on a page, including the page itself, has properties
     2. Each property can be thought of as a data point
