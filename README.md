@@ -40,7 +40,7 @@ Software Used
 * Chrome or Chromium
 
 Getting Started
-===============
+=============== 
 1. Opening the Maven project with IntelliJ
 2. Running the sample test
 3. Changing the browser used to run the test
